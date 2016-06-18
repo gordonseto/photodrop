@@ -12,6 +12,8 @@
 		8E54A6AD1D15D08A009D4506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E54A6AB1D15D08A009D4506 /* Main.storyboard */; };
 		8E54A6AF1D15D08A009D4506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E54A6AE1D15D08A009D4506 /* Assets.xcassets */; };
 		8E54A6B21D15D08A009D4506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E54A6B01D15D08A009D4506 /* LaunchScreen.storyboard */; };
+		8E54A6BA1D15D0EA009D4506 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E54A6B91D15D0EA009D4506 /* MapKit.framework */; };
+		8E54A6BC1D15D1DB009D4506 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E54A6BB1D15D1DB009D4506 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8E54A6AE1D15D08A009D4506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E54A6B11D15D08A009D4506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E54A6B31D15D08A009D4506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E54A6B91D15D0EA009D4506 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8E54A6BB1D15D1DB009D4506 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E54A6BC1D15D1DB009D4506 /* CoreLocation.framework in Frameworks */,
+				8E54A6BA1D15D0EA009D4506 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +44,8 @@
 		8E54A69B1D15D089009D4506 = {
 			isa = PBXGroup;
 			children = (
+				8E54A6BB1D15D1DB009D4506 /* CoreLocation.framework */,
+				8E54A6B91D15D0EA009D4506 /* MapKit.framework */,
 				8E54A6A61D15D08A009D4506 /* photodrop */,
 				8E54A6A51D15D089009D4506 /* Products */,
 			);
